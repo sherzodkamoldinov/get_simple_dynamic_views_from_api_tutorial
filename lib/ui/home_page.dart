@@ -24,7 +24,6 @@ class HomePage extends StatelessWidget {
         )..getDynamicViews(),
         child: BlocConsumer<DynamicViewCubit, DynamicViewState>(
           listener: (context, state) {
-            print(state.status);
           },
           builder: (context, state) {
             if (state.status.isSubmissionSuccess) {
