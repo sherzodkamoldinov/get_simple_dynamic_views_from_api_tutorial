@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+// This utility convert from hex string to hex number
 extension HexColor on Color {
   /// String is in the format "aabbcc" or "ffaabbcc" with an optional leading "#".
   static Color fromHex(String hexString) {
